@@ -1,0 +1,688 @@
+* {
+  outline: none;
+}
+
+html, input, textarea, button {
+  -webkit-appearance: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 15px;
+  margin: 0;
+  position: relative;
+  background: rgb(216, 240, 255);
+}
+
+.motion {
+  background: white;
+  overflow-X:hidden; 
+}
+
+.wrapper {
+  position: fixed;
+  width: 100%;
+  margin: 10px auto;
+  height: 80px;
+  z-index: 50;
+}
+
+.wrapper nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 50px;
+}
+
+.wrapper ul {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper ul li {
+	list-style: none;
+	float: right;
+	margin: 0 10px;
+}
+
+.logo2 {
+  display: none;
+}
+
+.wrapperancre {
+  position: fixed;
+  float: right;
+  width: 60px;
+  height: 100%;
+  margin-top: -100px;
+  z-index: 50;
+  top: 50%;
+}
+
+.wrapperancre ul li {
+  list-style: none;
+  float: left;
+  margin: 0 0px;
+}
+
+.ancre {
+  font-size: 30px;
+  float: left;
+}
+.ancre nav ul li {
+  margin-top: 15px;
+  margin-left: -15px;
+  font-size: 20px;
+  font-family:  'Times New Roman', Times, serif;
+}
+
+.header {
+  max-width: 100%;
+  padding-left: 55px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.blue {
+  color: rgba(0,0,255);
+}
+
+.homebg {
+  width: 900px;
+  display: block;
+  padding-top: 20px;
+  position: fixed;
+  left: 50%;
+  top: 50%; 
+  margin-left: -450px;
+  margin-top: -225px;
+}
+
+.homebg2 {
+  max-width: 700px;
+  display: none;
+  padding-top: 20px;
+  position: fixed;
+  left: 50%;
+  top: 50%; 
+  margin-left: -350px;
+  margin-top: -250px;
+}
+
+.homebg3 {
+  height: 500px;
+  display: none;
+  padding-top: 20px;
+  position: fixed;
+  left: 50%;
+  top: 50%; 
+  margin-left: -190px;
+  margin-top: -280px;
+}
+
+.cadrelink {
+  display: block;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 700px;
+  height: 300px;
+  z-index: 20;
+  margin-left: -350px;
+  font-size: 24px;
+}
+
+.link1 {
+  float: left;
+  background: white;
+  font-weight: bold;
+}
+
+.link2 {
+  float: right;
+  background: white;
+  font-weight: bold;
+}
+
+/*motion*/
+
+
+
+#blanc {
+  height: 100px;
+}
+
+
+.video {
+  display: block;
+  margin: auto;
+  padding-right: 200px;
+  padding-top: 130px;
+  position: relative;
+  z-index: 15;
+  margin-top: -50px;
+}
+
+.blocklink {
+  display: block;
+  width: 200px;
+  position: relative;
+  z-index: 200;
+  margin: auto;
+  top: -165px;
+  left: 285px;
+}
+
+.video2 {
+  display: block;
+  margin: auto;
+  padding-right: 100px;
+  padding-top: 80px;
+  position: relative;
+  z-index: 15;
+  margin-top: -150px;
+}
+
+.blocklink2 {
+  display: block;
+  width: 300px;
+  position: relative;
+  z-index: 200;
+  margin: auto;
+  top: -115px;
+  left: 375px;
+}
+
+.video3 {
+  display: block;
+  margin: auto;
+  padding-right:0px;
+  padding-top: 110px;
+  position: relative;
+  z-index: 4;
+  margin-top: -150px;
+  margin-right: 200px;
+}
+
+.blocklink3 {
+  display: block;
+  width: 300px;
+  position: relative;
+  z-index: 200;
+  margin: auto;
+  top: -230px;
+  left: -200px;
+}
+
+#link {
+  color: blue;
+}
+
+.anex1 {
+  display: block;
+  margin: auto;
+  max-width: 325px;
+  position: relative;
+  z-index: 10;
+  top: -100px;
+  left: 250px;
+}
+
+.anex2 {
+  display: block;
+  margin: auto;
+  max-width: 280px;
+  position: relative;
+  z-index: 25;
+  left: 45px;
+  top: -150px;
+}
+
+.anex4 {
+  display: block;
+  margin: auto;
+  max-width: 325px;
+  position: relative;
+  z-index: 14;
+  top: -50px;
+  left: -180px;
+}
+.anex5 {
+  display: block;
+  margin: auto;
+  max-width: 325px;
+  position: relative;
+  z-index: 13;
+  top: -150px;
+  left: 100px;
+}
+
+.anex6 {
+  display: block;
+  width: 300px;
+  position: relative;
+  z-index: 7;
+  margin: auto;
+  top: -10px;
+  left: 200px;
+}
+
+.anex7 {
+  display: block;
+  width: 300px;
+  position: relative;
+  z-index: 1;
+  margin: auto;
+  top: -235px;
+  left: -150px;
+}
+
+
+
+/*descrption*/
+
+
+.descpage {
+  overflow: hidden;
+}
+
+.headerdec {
+  width: 100px;
+  margin-left: 55px;
+  position: relative;
+}
+
+.quatre {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  margin: auto;
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
+.cross {
+  position: relative;
+  margin-right: 30px;
+  float: right;
+  top: -0px;
+  transform: rotate(0deg);
+  transition: all 0.5s;
+}
+
+.cross:hover {
+  transform: rotate(180deg);
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+}
+
+.cross2 {
+  height: 60px; 
+  width: 60px;
+  position: relative;
+  left: 1170px;
+  top: -330px;
+  background: white;
+}
+
+
+#madiv{   
+  width: 100%;
+  height: 400px;
+  overflow-X: auto;
+  overflow-Y: hidden;
+  position: relative;
+  top: 90px;
+}
+
+
+.blocdesc {
+  display: flex;
+}
+
+.tectdesc {
+  width: 400px;
+  margin-right: 100px;
+}
+
+.textdesc {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  margin: auto;
+  position: relative;
+  left: 50px;
+  top: 0px;
+
+}
+
+.textdesc2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+  margin: auto;
+  position: relative;
+  left: 50px;
+  top: 0px;
+}
+
+.imagedec {
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.imagedec2 {
+  max-height: 400px;
+  max-width: 400px;
+}
+
+.portrait {
+  position: relative;
+  display: block;
+  margin: auto;
+  margin-left: -100px;
+ }
+
+.inf {
+  display: block;
+  max-width: 900px;
+  margin: auto;
+  Line-Height: 2;
+}
+
+.cv {
+  width: 500px;
+  display: block;
+  position: relative;
+  margin: auto;
+  margin-top: -400px;
+  margin-right: -50px;
+}
+
+a:link {color: black; text-decoration: none;}
+a:visited {color: black;}
+a:hover {color: blue;}
+a:active {color: blue;}
+a .textdesc :hover{color: black;}
+
+@media screen and (max-width: 960px) {
+
+/*home*/
+
+  .homebg {
+    display: none;
+  }
+
+  .homebg2 {
+    display: block;
+  }
+
+  .homebg3 {
+    display: none;
+  }
+
+  .cadrelink {
+    max-width: 600px;
+    margin-left: -300px;
+    font-size: 27px;
+  }
+
+/*motion*/
+
+  .wrapperancre {
+    display: none;
+  }
+
+  .blocklink {
+    top: -195px;
+    left: 155px;
+  }
+
+  .video {
+    padding-top: 100px;
+    padding-right: 80px;
+    width: 400px;
+    height: 150px;
+  }
+
+  .anex1 {
+    display: block;
+    margin: auto;
+    max-width: 255px;
+    position: relative;
+    z-index: 10;
+    top: -50px;
+    left: 130px;
+  }
+
+  .anex2 {
+    display: block;
+    margin: auto;
+    max-width: 230px;
+    position: relative;
+    z-index: 25;
+    left: -50px;
+    top: -80px;
+  }
+
+  .blocklink2 {
+    top: 15px;
+    left: 205px;
+  }
+
+  .video2 {
+    width: 400px;
+    height: 225px;
+    padding-top: 150px;
+    padding-right: 30px;
+  }
+
+  .anex4 {
+    display: block;
+    margin: auto;
+    max-width: 255px;
+    position: relative;
+    z-index: 10;
+    top: -43px;
+    left: -130px;
+  }
+
+  .anex5 {
+    display: block;
+    margin: auto;
+    max-width: 230px;
+    position: relative;
+    z-index: 9;
+    left: 30px;
+    top: -70px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+/*menu*/
+
+  .boutonrespo {
+    display: none;
+  }
+
+  .boutonrespo3 {
+    font-size: 20px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  .logo2 {
+    display: block;
+    margin-top: 10px;
+  }
+
+  a:link {color: blue; text-decoration: none; background-color: white;}
+  a:visited {color: blue; background-color: white;}
+
+/*home*/
+
+ .homebg {
+  display: none;
+  }
+
+  .homebg2 {
+    display: none;
+  }
+
+  .homebg3 {
+    display: block;
+  }
+  .cadrelink {
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    z-index: 20;
+    margin-left: -150px;
+    margin-top: -95px;
+    font-size: 30px;
+  }
+  
+  .link2 {
+    margin-top: 100px;
+  }
+/*motion*/
+
+  .blocklink {
+    top: 15px;
+    left: 5px;
+  }
+
+  .video {
+    width: 90%;
+    height: 150px;
+    padding-top: 0px;
+    padding-right: 0px;
+  }
+
+  .anex1 {
+    display: block;
+    margin: auto;
+    max-width: 70%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 20px;
+  }
+
+  .anex2 {
+    display: block;
+    margin: auto;
+    max-width: 70%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 20px;
+  }
+
+  .blocklink2 {
+    top: 15px;
+    left: 5px;
+  }
+
+  .video2 {
+    width: 90%;
+    height: 225px;
+    padding-top: 200px;
+    padding-right: 0px;
+  }
+
+  .anex4 {
+    display: block;
+    margin: auto;
+    max-width: 70%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 20px;
+  }
+
+  .anex5 {
+    display: block;
+    margin: auto;
+    max-width: 70%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-top: 20px;
+  }
+
+
+/*description*/
+
+  .blocdesc {
+    max-width: 300px;
+    padding-right: 50px;
+  }
+
+  .textdesc {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    margin: auto;
+    position: relative;
+    left: 30px;
+    top: 0px;
+    width: 300px;
+  }
+
+  .textdesc2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+    margin: auto;
+    position: relative;
+    left: 30px;
+    top: 0px;
+    width: 300px;
+  }
+
+  #madiv {
+    overflow-Y: auto;
+    overflow-X: hidden;
+    height: 700px;
+  }
+
+  .imagedec {
+    height: 250px;
+    position: relative;
+    float: left;
+    top: 30px;
+    width: 90%;
+    margin: auto;  
+  }
+
+  .imagedec2 {
+    height: 250px;
+    position: relative;
+    float: left;
+    top: 50px;
+    left: 30px;
+  }
+}
+
