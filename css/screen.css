@@ -440,6 +440,10 @@ a .textdesc :hover{color: black;}
 
 /*motion*/
 
+  .motion {
+    overflow-X:hidden; 
+  }
+
   .wrapperancre {
     display: none;
   }
@@ -510,6 +514,10 @@ a .textdesc :hover{color: black;}
 }
 
 @media all and (max-width: 700px) {
+
+  .motion {
+    overflow-X:hidden; 
+  }
 
 /*menu*/
 
